@@ -1,0 +1,35 @@
+table#boardList > thead{
+    background-color: #1f196e;
+    color: whitesmoke;
+}
+table#boardList > tbody > tr.boardLine{
+    background-color: #fff;
+}
+table#boardList > tbody > tr.boardLine > td {
+    vertical-align: middle;
+}
+table#boardList > tbody > tr.boardLine > td:nth-child(1),
+table#boardList > tbody > tr.boardLine > td:nth-child(5){
+    font-size: 1.1rem;
+}
+table#boardList > tbody > tr.boardLine > td:nth-child(2){
+    max-width: 60px;
+}
+table#boardList > tbody > tr.boardLine > td:nth-child(3) a{
+    color:#212529;
+}
+.board_detail {
+    overflow:hidden;
+    height:auto;
+}
+.board_article_content2 img{
+    width:100%;
+}
+.badge-light{
+    color:#212529;
+    background-color: #e6e9fa;
+}
+.coin_kind{
+    border: 1px solid #1f196e;
+    color: #1f196e;
+}
